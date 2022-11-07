@@ -37,7 +37,7 @@ module.exports = function(app, passport, db) {
     })
 
     app.put('/messages', (req, res) => {
-      db.collection('exercises')
+      db.collection('songs')
       .findOneAndUpdate({name: req.body.name, msg: req.body.msg}, {
         $set: {
           thumbUp:req.body.thumbUp + 1
@@ -54,7 +54,7 @@ module.exports = function(app, passport, db) {
     
 app.put('/bookmarks', (req, res) => {
   // update request
-  db.collection('exercises')
+  db.collection('songs')
   .findOneAndUpdate({name: req.body.name, msg: req.body.msg}, { // find the name/message
     $set: { // changes this part of the object
      bookmarked: true
@@ -70,7 +70,7 @@ app.put('/bookmarks', (req, res) => {
 })
 
     app.delete('/messages', (req, res) => {
-      db.collection('exercises').findOneAndDelete({name: req.body.name, msg: req.body.msg}, (err, result) => {
+      db.collection('songs').findOneAndDelete({name: req.body.name, msg: req.body.msg}, (err, result) => {
         if (err) return res.send(500, err)
         res.send('Message deleted!')
       })
