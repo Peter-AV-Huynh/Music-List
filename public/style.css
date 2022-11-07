@@ -1,0 +1,51 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background: white;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+img{
+  height: 200px;
+}
+.blue{
+  color:rgb(33, 33, 230);
+}
+.well{
+  display:none;
+}
+.col-sm-6{
+  width:70%;
+  margin-left:320px;
+  
+}
+
+.col-sm-6 h3, h2{
+  font-size: 30px;
+  color:black;
+  font-family: 'Tiro Devanagari Marathi', serif;
+}
+.form input{
+  height:30px;
+  border-radius: 20px;
+}
+.form button{
+  background-color: black;
+  color:white;
+  width:15%;
+  border-radius: 20px;
+
+}
+.form button:hover{
+  background-color: white;
+  color:black;
+  width:15%;
+  border-radius: 20px;
+
+}
+
+.page-headertext-center a{
+  color:black;
+  width:15%;
+  border-radius: 20px;
+}
