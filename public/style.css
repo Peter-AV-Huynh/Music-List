@@ -1,8 +1,10 @@
 body{
   padding-top:80px;
   word-wrap:break-word;
-  background: rgb(135, 152, 192);
-  color: rgb(65, 69, 75);
+  background: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 img{
