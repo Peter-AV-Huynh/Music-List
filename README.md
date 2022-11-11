@@ -7,8 +7,9 @@
 
 1. run `node server.js`
 2. Navigate to `localhost:8080`
-![musicss](https://user-images.githubusercontent.com/112198288/201387188-7ec07f0e-1bf5-486a-8e50-90a757a3dc4e.png)
 
 ## Credit
 
 Modified from Scotch.io's auth tutorial
+
+![musicss](https://user-images.githubusercontent.com/112198288/201387188-7ec07f0e-1bf5-486a-8e50-90a757a3dc4e.png)
